@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen h-screen">
       <LogoSidebar />
-      <div className="flex flex-col">
+      <div className="flex flex-col flex-1">
         <TopNavbar />
         <div className="flex-1 flex overflow-y-hidden">
           <HashtagSidebar />
