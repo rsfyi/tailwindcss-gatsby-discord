@@ -12,9 +12,9 @@ export default function Home() {
       <LogoSidebar />
       <div className="flex flex-col">
         <TopNavbar />
-        <div className="bg-blue-500 flex-1 flex overflow-y-hidden">
+        <div className="flex-1 flex overflow-y-hidden">
           <HashtagSidebar />
-          <div className="bg-green-500 flex-1 flex justify-between">
+          <div className="flex-1 flex justify-between">
             <ChatList />
             <UserList />
           </div>

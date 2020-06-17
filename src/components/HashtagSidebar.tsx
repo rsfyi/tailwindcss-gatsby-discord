@@ -2,8 +2,8 @@ import React from "react"
 
 export const HashtagSidebar = () => {
   return (
-    <div className="bg-green-300 w-56 flex-none flex flex-col justify-between">
-      <div className="bg-green-200 overflow-y-auto">
+    <div className="bg-gray-800 w-56 flex-none flex flex-col justify-between">
+      <div className="overflow-y-auto">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo itaque quos
         commodi laboriosam assumenda. Aliquid corporis, inventore labore
         doloremque aperiam enim, commodi ab saepe hic totam blanditiis dolorum

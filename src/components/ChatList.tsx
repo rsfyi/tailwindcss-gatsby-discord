@@ -2,8 +2,8 @@ import React from "react"
 
 export const ChatList = () => {
   return (
-    <div className="bg-indigo-300 flex-1 flex flex-col justify-between">
-      <div className="bg-gray-400 overflow-y-auto flex-1">
+    <div className="bg-gray-750 flex-1 flex flex-col justify-between">
+      <div className="overflow-y-auto flex-1">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis animi
         omnis a deserunt, quidem ducimus provident neque ratione ipsam
         repudiandae sed molestiae alias placeat corporis dolorum voluptates
