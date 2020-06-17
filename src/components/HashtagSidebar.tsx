@@ -5,7 +5,7 @@ import avatarImg from "../images/avatar.jpg"
 export const HashtagSidebar = () => {
   return (
     <div className="bg-gray-800 w-56 flex-none flex flex-col justify-between">
-      <div className="overflow-y-auto text-sm">
+      <div className="overflow-y-auto text-sm hashtag-bar">
         <ul className="px-2 py-3">
           <li className="text-gray-500 px-2 py-1 hover:text-gray-200 hover:bg-gray-900">
             <a href="#" className="flex items-center">
@@ -32,6 +32,20 @@ export const HashtagSidebar = () => {
             Tailwind CSS
           </h3>
         </button>
+        <ul className="px-2">
+          <li className="text-gray-500 px-2 py-1 hover:text-gray-200 hover:bg-gray-900 bg-gray-750 rounded">
+            <a href="#" className="flex items-center">
+              <span className="text-xl">#</span>
+              <span className="ml-2">welcome</span>
+            </a>
+          </li>
+          <li className="text-gray-500 px-2 py-1 hover:text-gray-200 hover:bg-gray-900">
+            <a href="#" className="flex items-center">
+              <span className="text-xl">#</span>
+              <span className="ml-2">faq</span>
+            </a>
+          </li>
+        </ul>
         <ul className="px-2">
           <li className="text-gray-500 px-2 py-1 hover:text-gray-200 hover:bg-gray-900 bg-gray-750 rounded">
             <a href="#" className="flex items-center">

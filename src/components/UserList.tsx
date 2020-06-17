@@ -4,7 +4,7 @@ import profileImg from "../images/avatar.jpg"
 
 export const UserList = () => {
   return (
-    <div className="bg-gray-800 w-56 flex-none overflow-y-auto p-3">
+    <div className="bg-gray-800 w-56 flex-none overflow-y-auto p-3 sidebar-users">
       <h3 className="uppercase tracking-wide font-semibold text-xs text-gray-500 mb-2">
         Core team - 1
       </h3>

@@ -7,7 +7,7 @@ import vueImg from "../images/icon_vue.svg"
 
 export const LogoSidebar = () => {
   return (
-    <div className="bg-gray-900 w-20 flex-none overflow-y-auto px-2 py-2">
+    <div className="bg-gray-900 w-20 flex-none overflow-y-auto px-2 py-2 channel-bar">
       <ul className="text-center">
         <li>
           <a href="#">

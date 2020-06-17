@@ -5,7 +5,193 @@ import profileImg from "../images/avatar.jpg"
 export const ChatList = () => {
   return (
     <div className="bg-gray-750 flex-1 flex flex-col justify-between">
-      <div className="overflow-y-auto flex-1 text-sm text-gray-400">
+      <div className="overflow-y-auto flex-1 text-sm text-gray-400 chat">
+        <div className="mx-6 my-3 py-4 border-t border-gray-700 flex">
+          <div className="flex-none">
+            <a href="#">
+              <img
+                src={profileImg}
+                alt="profile"
+                className="w-10 h-10 rounded-full"
+              />
+            </a>
+          </div>
+          <div className="ml-4">
+            <div>
+              <a href="#" className="text-white hover:underline">
+                Rahul Singh
+              </a>
+              <span className="text-xs text-gray-600 ml-1">17/06/2020</span>
+            </div>
+            <div>
+              <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+                fugit totam at esse numquam officia aliquam quisquam sint cumque
+                tempora
+              </div>
+              <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Laborum, mollitia.
+              </div>
+              <div>Lorem ipsum dolor sit amet.</div>
+            </div>
+          </div>
+        </div>
+        <div className="mx-6 my-3 py-4 border-t border-gray-700 flex">
+          <div className="flex-none">
+            <a href="#">
+              <img
+                src={profileImg}
+                alt="profile"
+                className="w-10 h-10 rounded-full"
+              />
+            </a>
+          </div>
+          <div className="ml-4">
+            <div>
+              <a href="#" className="text-white hover:underline">
+                Rahul Singh
+              </a>
+              <span className="text-xs text-gray-600 ml-1">17/06/2020</span>
+            </div>
+            <div>
+              <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+                fugit totam at esse numquam officia aliquam quisquam sint cumque
+                tempora
+              </div>
+              <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Laborum, mollitia.
+              </div>
+              <div>Lorem ipsum dolor sit amet.</div>
+            </div>
+          </div>
+        </div>
+        <div className="mx-6 my-3 py-4 border-t border-gray-700 flex">
+          <div className="flex-none">
+            <a href="#">
+              <img
+                src={profileImg}
+                alt="profile"
+                className="w-10 h-10 rounded-full"
+              />
+            </a>
+          </div>
+          <div className="ml-4">
+            <div>
+              <a href="#" className="text-white hover:underline">
+                Rahul Singh
+              </a>
+              <span className="text-xs text-gray-600 ml-1">17/06/2020</span>
+            </div>
+            <div>
+              <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+                fugit totam at esse numquam officia aliquam quisquam sint cumque
+                tempora
+              </div>
+              <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Laborum, mollitia.
+              </div>
+              <div>Lorem ipsum dolor sit amet.</div>
+            </div>
+          </div>
+        </div>
+        <div className="mx-6 my-3 py-4 border-t border-gray-700 flex">
+          <div className="flex-none">
+            <a href="#">
+              <img
+                src={profileImg}
+                alt="profile"
+                className="w-10 h-10 rounded-full"
+              />
+            </a>
+          </div>
+          <div className="ml-4">
+            <div>
+              <a href="#" className="text-white hover:underline">
+                Rahul Singh
+              </a>
+              <span className="text-xs text-gray-600 ml-1">17/06/2020</span>
+            </div>
+            <div>
+              <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+                fugit totam at esse numquam officia aliquam quisquam sint cumque
+                tempora
+              </div>
+              <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Laborum, mollitia.
+              </div>
+              <div>Lorem ipsum dolor sit amet.</div>
+            </div>
+          </div>
+        </div>
+        <div className="mx-6 my-3 py-4 border-t border-gray-700 flex">
+          <div className="flex-none">
+            <a href="#">
+              <img
+                src={profileImg}
+                alt="profile"
+                className="w-10 h-10 rounded-full"
+              />
+            </a>
+          </div>
+          <div className="ml-4">
+            <div>
+              <a href="#" className="text-white hover:underline">
+                Rahul Singh
+              </a>
+              <span className="text-xs text-gray-600 ml-1">17/06/2020</span>
+            </div>
+            <div>
+              <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+                fugit totam at esse numquam officia aliquam quisquam sint cumque
+                tempora
+              </div>
+              <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Laborum, mollitia.
+              </div>
+              <div>Lorem ipsum dolor sit amet.</div>
+            </div>
+          </div>
+        </div>
+        <div className="mx-6 my-3 py-4 border-t border-gray-700 flex">
+          <div className="flex-none">
+            <a href="#">
+              <img
+                src={profileImg}
+                alt="profile"
+                className="w-10 h-10 rounded-full"
+              />
+            </a>
+          </div>
+          <div className="ml-4">
+            <div>
+              <a href="#" className="text-white hover:underline">
+                Rahul Singh
+              </a>
+              <span className="text-xs text-gray-600 ml-1">17/06/2020</span>
+            </div>
+            <div>
+              <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+                fugit totam at esse numquam officia aliquam quisquam sint cumque
+                tempora
+              </div>
+              <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Laborum, mollitia.
+              </div>
+              <div>Lorem ipsum dolor sit amet.</div>
+            </div>
+          </div>
+        </div>
         <div className="mx-6 my-3 py-4 border-t border-gray-700 flex">
           <div className="flex-none">
             <a href="#">
